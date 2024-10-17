@@ -21,4 +21,4 @@ function cloneColumn(tableElement, columnIndex) {
 
 const employeeTable = document.querySelector('table');
 
-cloneColumn(employeeTable);
+cloneColumn(employeeTable, 1);
