@@ -1,7 +1,5 @@
 'use strict';
 
-const employeeTable = document.querySelector('table');
-
 function cloneColumn(tableElement, columnIndex) {
   const headRows = tableElement.querySelectorAll('thead tr');
   const bodyRows = tableElement.querySelectorAll('tbody tr');
@@ -21,4 +19,6 @@ function cloneColumn(tableElement, columnIndex) {
   insertClonedCell(footRows);
 }
 
-cloneColumn(employeeTable, 1);
+const employeeTable = document.querySelector('table');
+
+cloneColumn(employeeTable);
